@@ -24,7 +24,10 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "builtinextension.gemspec",
+    "lib/builtinextension.rb",
     "lib/string_escape_zsh.rb",
+    "spec/builtinextension_spec.rb",
     "spec/spec_helper.rb",
     "spec/string_escape_zsh_spec.rb"
   ]
