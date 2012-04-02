@@ -5,14 +5,14 @@
 #
 #
 class Array
-	# 受け取ったブロックが true を返す要素のインデックスをソート済配列にして返す。
-	def select_indices
-		results = []
-		each_with_index { |item, index|
-			results << index if yield(item)
-		}
-		return results
-	end
+  # Return sorted array of indices which a block returns true.
+  def select_indices
+    results = []
+    each_with_index { |item, index|
+      results << index if yield(item)
+    }
+    return results
+  end
 
 end
 

@@ -5,18 +5,18 @@
 #
 #
 class Array
-	# 通常の include? は == で判定するが、
-	# これではなく eql? を使って判定するようにしたもの。
-	def include_eql?(other)
-		result = false
-		each do |i|
-			if i.eql?(other)
-				result ||= true
-				break
-			end
-		end
-		return result
-	end
+  # Whereas normal include? uses == method,
+  # this method uses eql? alternatively.
+  def include_eql?(other)
+    result = false
+    each do |i|
+      if i.eql?(other)
+        result ||= true
+        break
+      end
+    end
+    return result
+  end
 
 end
 
