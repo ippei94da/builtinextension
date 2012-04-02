@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "builtinextension"
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ippei94da"]
   s.date = "2012-04-02"
-  s.description = "Frequently used methods for builtin classes,\n    e.g., String, Array, etc.\n    These methods are not implemented in Ruby and\n    are doubted to offer to be implemented into Ruby core system.\n    A main target is my personal programming.\n  "
+  s.description = "Personally frequently used methods for builtin classes,\n    e.g., String, Array, etc.\n    These methods are not implemented in Ruby and\n    are doubted to offer to be implemented into Ruby core system.\n    A main target is my personal programming.\n  "
   s.email = "ippei94da@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,9 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "builtinextension.gemspec",
-    "lib/builtinextension.rb",
     "lib/string_escape_zsh.rb",
-    "spec/builtinextension_spec.rb",
     "spec/spec_helper.rb",
     "spec/string_escape_zsh_spec.rb"
   ]
