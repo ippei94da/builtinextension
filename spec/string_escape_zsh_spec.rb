@@ -1,11 +1,9 @@
 #! /usr/bin/env ruby
 # coding: utf-8
 
-
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 require 'string_escape_zsh.rb'
-#require 'test/unit'
 
 describe String, "with chars to be escaped" do
 	before do
