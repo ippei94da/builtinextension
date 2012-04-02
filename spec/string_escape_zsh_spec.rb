@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 # coding: utf-8
 
-require 'builtinextension/string_escape_zsh.rb'
+require 'lib/string_escape_zsh.rb'
 #require 'test/unit'
 
 describe String, "with chars to be escaped" do

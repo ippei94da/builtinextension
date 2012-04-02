@@ -17,8 +17,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "builtinextension"
   gem.homepage = "http://github.com/ippei94da/builtinextension"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Method as extension for builtin classes.}
+  gem.description = %Q{Frequently used methods for builtin classes,
+    e.g., String, Array, etc.
+    These methods are not implemented in Ruby and
+    are doubted to offer to be implemented into Ruby core system.
+    A main target is my personal programming.
+  }
   gem.email = "ippei94da@gmail.com"
   gem.authors = ["ippei94da"]
   # dependencies defined in Gemfile
