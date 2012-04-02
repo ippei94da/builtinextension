@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "builtinextension"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ippei94da"]
@@ -25,9 +25,20 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "builtinextension.gemspec",
+    "lib/array_include_eql.rb",
+    "lib/array_select_indices.rb",
+    "lib/string_color.rb",
     "lib/string_escape_zsh.rb",
+    "lib/string_mismatch.rb",
+    "lib/string_width.rb",
+    "spec/array_include_eql_spec.rb",
+    "spec/array_select_indices_spec.rb",
+    "spec/print_color",
     "spec/spec_helper.rb",
-    "spec/string_escape_zsh_spec.rb"
+    "spec/string_color_spec.rb",
+    "spec/string_escape_zsh_spec.rb",
+    "spec/string_mismatch_spec.rb",
+    "spec/string_width_spec.rb"
   ]
   s.homepage = "http://github.com/ippei94da/builtinextension"
   s.licenses = ["MIT"]
