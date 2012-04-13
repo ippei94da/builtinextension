@@ -17,7 +17,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "builtinextension"
   gem.homepage = "http://github.com/ippei94da/builtinextension"
   gem.license = "MIT"
-  gem.summary = %Q{Method as extension for builtin classes.}
+  gem.summary = %Q{Method as extension for builtin classes}
   gem.description = %Q{Personally frequently used methods for builtin classes,
     e.g., String, Array, etc.
     These methods are not implemented in Ruby and
