@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "builtinextension"
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ippei94da"]
-  s.date = "2012-04-02"
+  s.date = "2012-07-04"
   s.description = "Personally frequently used methods for builtin classes,\n    e.g., String, Array, etc.\n    These methods are not implemented in Ruby and\n    are doubted to offer to be implemented into Ruby core system.\n    A main target is my personal programming.\n  "
   s.email = "ippei94da@gmail.com"
   s.extra_rdoc_files = [
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".rspec",
+    "CHANGES",
     "Gemfile",
     "LICENSE.txt",
     "README.rdoc",
@@ -30,6 +31,7 @@ Gem::Specification.new do |s|
     "lib/string_color.rb",
     "lib/string_escape_zsh.rb",
     "lib/string_mismatch.rb",
+    "lib/string_split_parens.rb",
     "lib/string_width.rb",
     "spec/array_include_eql_spec.rb",
     "spec/array_select_indices_spec.rb",
@@ -38,32 +40,33 @@ Gem::Specification.new do |s|
     "spec/string_color_spec.rb",
     "spec/string_escape_zsh_spec.rb",
     "spec/string_mismatch_spec.rb",
+    "spec/string_split_parens_spec.rb",
     "spec/string_width_spec.rb"
   ]
   s.homepage = "http://github.com/ippei94da/builtinextension"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.21"
-  s.summary = "Method as extension for builtin classes."
+  s.rubygems_version = "1.8.11"
+  s.summary = "Method as extension for builtin classes"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<rspec>, ["~> 2.8.0"])
+      s.add_development_dependency(%q<rspec>, ["~> 2.9.0"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_development_dependency(%q<bundler>, ["~> 1.1.3"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
     else
-      s.add_dependency(%q<rspec>, ["~> 2.8.0"])
+      s.add_dependency(%q<rspec>, ["~> 2.9.0"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<bundler>, ["~> 1.1.3"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_dependency(%q<simplecov>, [">= 0"])
     end
   else
-    s.add_dependency(%q<rspec>, ["~> 2.8.0"])
+    s.add_dependency(%q<rspec>, ["~> 2.9.0"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
     s.add_dependency(%q<bundler>, ["~> 1.1.3"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
