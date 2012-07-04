@@ -1,6 +1,9 @@
 = filerenamer Changelog
 
-== Master (for 0.0.4)
+== Master (for 0.0.5)
+* Change String::open_paren? and String::close_paren? in lib/string_split_parens.rb to public method.
+
+== Version 0.0.4
 * Add lib/string_split_parens.rb for String::split_parens.
 
 == Version 0.0.3
