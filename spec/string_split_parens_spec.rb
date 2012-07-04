@@ -5,9 +5,9 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 require 'string_split_parens.rb'
 
-class String
-  public :open_paren?, :close_paren?
-end
+#class String
+#  public :open_paren?, :close_paren?
+#end
 
 describe String, "" do
   describe "many parens" do

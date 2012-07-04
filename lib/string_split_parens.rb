@@ -42,8 +42,6 @@ class String
     return results
   end
 
-  private
-
   # Return true if self is a single character and open parenthesis.
   def open_paren?
     '({[<（｛［＜〔【〈《「『'.split('').include?(self)
