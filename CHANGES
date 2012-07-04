@@ -1,7 +1,7 @@
 = filerenamer Changelog
 
 == Master (for 0.0.4)
-* Add lib/string_split_parens.rb for String::split_parens .
+* Add lib/string_split_parens.rb for String::split_parens.
 
 == Version 0.0.3
 * Initial release and several corrections.
