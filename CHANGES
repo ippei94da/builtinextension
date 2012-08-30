@@ -1,4 +1,4 @@
-= filerenamer Changelog
+= builtinextension Changelog
 
 == Master (for 0.0.5)
 * Change String::open_paren? and String::close_paren? in lib/string_split_parens.rb to public method.
