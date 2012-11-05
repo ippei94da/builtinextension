@@ -10,15 +10,15 @@ class String
 
   #Add escape characters at head and tail of self.
   #Foreground and background can be indicated by argued symbols.
-  #	0: black
-  #	1: red
-  #	2: green
-  #	3: yellow
-  #	4: blue
-  #	5: magenta
-  #	6: cyan
-  #	7: white
-  #	9: default
+  # 0: black
+  # 1: red
+  # 2: green
+  # 3: yellow
+  # 4: blue
+  # 5: magenta
+  # 6: cyan
+  # 7: white
+  # 9: default
   # Argument bg indicates background color. If not indicated, default color.
   # Argument fg indicates foreground color. This must be indicated.
   def color( fg, bg = :default )
