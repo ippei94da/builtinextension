@@ -2,7 +2,7 @@
 # coding: utf-8
 
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
-require 'string_color.rb'
+require "string/color.rb"
 
 
 describe String, "to be added color information" do

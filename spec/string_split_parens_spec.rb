@@ -3,7 +3,7 @@
 
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-require 'string_split_parens.rb'
+require "string/splitparens.rb"
 
 #class String
 #  public :open_paren?, :close_paren?

@@ -2,7 +2,7 @@
 # coding: utf-8
 
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
-require "array_include_eql.rb"
+require "array/includeeql.rb"
 
 class Klass
   def initialize(val)

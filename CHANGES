@@ -1,6 +1,9 @@
 = builtinextension Changelog
 
-== Master (for 0.0.5)
+== Master (for 0.1.0)
+* Sub-directorize in lib.
+
+== Version 0.0.5
 * Change String::open_paren? and String::close_paren? in lib/string_split_parens.rb to public method.
 
 == Version 0.0.4

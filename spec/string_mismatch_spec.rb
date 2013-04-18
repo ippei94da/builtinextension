@@ -2,7 +2,7 @@
 # coding: utf-8
 
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
-require 'string_mismatch.rb'
+require "string/mismatch.rb"
 
 
 describe String, "for mismatch check" do

@@ -3,7 +3,7 @@
 
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-require 'string_escape_zsh.rb'
+require "string/escapezsh.rb"
 
 describe String, "with chars to be escaped" do
   before do
