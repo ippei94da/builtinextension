@@ -1,6 +1,8 @@
 = builtinextension Changelog
 
-== Master (for 0.1.0)
+== Master (for 0.1.1)
+
+== Version 0.1.0 [2013-04-18] released
 * Sub-directorize in lib.
 
 == Version 0.0.5
