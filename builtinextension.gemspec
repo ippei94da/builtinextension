@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "builtinextension.gemspec",
     "lib/array/includeeql.rb",
     "lib/array/selectindices.rb",
     "lib/string/color.rb",
