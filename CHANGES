@@ -1,6 +1,9 @@
 = builtinextension Changelog
 
-== Master (for 0.1.1)
+== Master (for 0.1.2)
+
+== Version 0.1.1 [2014-08-30] released
+* Update dependency on other gems.
 
 == Version 0.1.0 [2013-04-18] released
 * Sub-directorize in lib.
