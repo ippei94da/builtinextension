@@ -1,6 +1,8 @@
 = builtinextension Changelog
 
-== Master (for 0.1.4)
+== Master (for 0.1.5)
+
+== Version 0.1.4 [2016-03-03] released
 * Add String/integer?
 * Add String/float?
 

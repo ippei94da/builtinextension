@@ -3,18 +3,19 @@
 
 require 'helper'
 require "test/unit"
+require "string/float"
 
 class TC_String_Float < Test::Unit::TestCase
   def test_float?
-    asset_equal(false, String.float?("あいうえお"))
-    asset_equal(true , String.float?("123"       ))
-    asset_equal(true , String.float?("3.14"      ))
-    asset_equal(false, String.float?("１２３４５"))
+    assert_equal(false, String.float?("あいうえお"))
+    assert_equal(true , String.float?("123"       ))
+    assert_equal(true , String.float?("3.14"      ))
+    assert_equal(false, String.float?("１２３４５"))
 
-    asset_equal(false, "あいうえお".float?)
-    asset_equal(true , "123"       .float?)
-    asset_equal(true , "3.14"      .float?)
-    asset_equal(false, "１２３４５".float?)
+    assert_equal(false, "あいうえお".float?)
+    assert_equal(true , "123"       .float?)
+    assert_equal(true , "3.14"      .float?)
+    assert_equal(false, "１２３４５".float?)
   end
 
 end
