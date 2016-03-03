@@ -6,11 +6,6 @@ require "test/unit"
 
 class TC_String_Integer < Test::Unit::TestCase
   def test_integer?
-    str = 
-    str2 =
-    str3 =
-    str4 =
-
     asset_equal(false, String.integer?("あいうえお"))
     asset_equal(true , String.integer?("123"       ))
     asset_equal(false, String.integer?("3.14"      ))
